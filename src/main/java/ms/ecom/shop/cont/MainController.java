@@ -10,7 +10,7 @@ public class MainController {
 	@RequestMapping("/")
 	public ModelAndView dispmenu()
 	{
-		ModelAndView mv = new ModelAndView("menu");
+		ModelAndView mv = new ModelAndView("main");
 		return mv;		
 	}
 	

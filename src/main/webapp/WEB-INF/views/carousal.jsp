@@ -47,26 +47,26 @@
                         <!-- Bottom switcher of slider -->
                         <ul class="hide-bullets">
                             <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-0" href="${req.contextPath}/admin/view"><img src="./resources/images/p001.jpg" style="height:200px;width=20%"></a>
+                                <a class="thumbnail" id="carousel-selector-0" href="${req.contextPath}/pro/view"><img src="./resources/images/p001.jpg" style="height:200px;width=20%"></a>
                             </li>
 
                             <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-1" href="${req.contextPath}/admin/view"><img src="./resources/images/p002.jpg" style="height:250px;width=20%" ></a>
+                                <a class="thumbnail" id="carousel-selector-1" href="${req.contextPath}/pro/view"><img src="./resources/images/p002.jpg" style="height:250px;width=20%" ></a>
                             </li>
 
                             <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-2" href="${req.contextPath}/admin/view"><img src="./resources/images/p003.jpg" style="height:250px;width=20%"></a>
+                                <a class="thumbnail" id="carousel-selector-2" href="${req.contextPath}/pro/view"><img src="./resources/images/p003.jpg" style="height:250px;width=20%"></a>
                             </li>
 							<li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-0" href="${req.contextPath}/admin/view"><img src="./resources/images/p004.jpg" style="height:250px;width=20%"></a>
+                                <a class="thumbnail" id="carousel-selector-0" href="${req.contextPath}/pro/view"><img src="./resources/images/p004.jpg" style="height:250px;width=20%"></a>
                             </li>
 
                             <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-1" href="${req.contextPath}/admin/view"><img src="./resources/images/p005.jpg" style="height:250px;width=20%"></a>
+                                <a class="thumbnail" id="carousel-selector-1" href="${req.contextPath}/pro/view"><img src="./resources/images/p005.jpg" style="height:250px;width=20%"></a>
                             </li>
 
                             <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-2" href="${req.contextPath}/admin/view"><img src="./resources/images/p006.jpg" style="height:250px;width=20%"></a>
+                                <a class="thumbnail" id="carousel-selector-2" href="${req.contextPath}/pro/view"><img src="./resources/images/p006.jpg" style="height:250px;width=20%"></a>
                             </li>
 
                         </ul>                 

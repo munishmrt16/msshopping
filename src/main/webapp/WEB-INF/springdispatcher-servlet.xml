@@ -17,6 +17,14 @@
 	</bean>
 	<mvc:resources location="/resources/" mapping="/resources/**" />
 	<mvc:annotation-driven />
+		<!-- Multipart file size -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+
+		<!-- setting maximum upload size -->
+		<property name="maxUploadSize" value="800000" />
+	</bean>
+	
 </beans>
 
 

@@ -17,7 +17,7 @@ http://www.springframework.org/schema/tx/spring-tx.xsd">
 <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
 destroy-method="close">
 <property name="driverClassName" value="org.h2.Driver" />
-<property name="url" value="jdbc:h2:tcp://localhost/~/ecom" />
+<property name="url" value="jdbc:h2:tcp://localhost/~/ecomm" />
 <property name="username" value="sa" />
 <property name="password" value="" />
 </bean>
@@ -47,6 +47,9 @@ class="org.springframework.orm.hibernate5.HibernateTransactionManager">
 
 <!-- dto related beans -->
 <bean id="ProductDAO" class="ms.ecom.shop.dao.ProductDAOImpl" />
-
+<bean id="UserDAO" class="ms.ecom.shop.dao.UserDAOImpl" />
+<bean id="VisDAO" class="ms.ecom.shop.dao.VisDAOImpl" />
+<bean id="CartDetailDAO" class="ms.ecom.shop.dao.CartDetailDAOImpl" />
+<bean id="CartItemDAO" class="ms.ecom.shop.dao.CartItem DAOImpl" />
 </beans>
 
