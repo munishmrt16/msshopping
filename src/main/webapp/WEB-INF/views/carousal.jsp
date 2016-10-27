@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 <c:set var="req" value="${pageContext.request}" />
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active" ></li>
@@ -15,20 +15,20 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-         <img src="./resources/images/p1.jpg" alt="Chania" >
+         <img src="./resources/images/b1.jpg" alt="Chania" style="width:1600;height:400">
         
       </div>
 
       <div class="item">
-         <img src="./resources/images/p2.jpg" alt="Chania">
+         <img src="./resources/images/b2.jpg" alt="Chania" style="width:1600;height:400">
       </div>
     
       <div class="item">
-        <img src="./resources/images/p3.jpg" alt="Chania" >
+        <img src="./resources/images/b3.jpg" alt="Chania" style="width:1600;height:400">
       </div>
 
       <div class="item">
-		<img src="./resources/images/p4.jpg" alt="Chania" width="460" height="200">
+		<img src="./resources/images/b4.jpg" alt="Chania" style="width:1600;height:400">
       </div>
     </div>
 
@@ -43,30 +43,30 @@
     </a>
   </div>
 
-  <div class="row hidden-xs" id="slider-thumbs" style="height:200px;width=20%">
+  <div class="row hidden-xs" id="slider-thumbs" >
                         <!-- Bottom switcher of slider -->
                         <ul class="hide-bullets">
                             <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-0" href="${req.contextPath}/pro/view"><img src="./resources/images/p001.jpg" style="height:200px;width=20%"></a>
+                                <a class="thumbnail" id="carousel-selector-0" href="${req.contextPath}/displayall"><img src="${req.contextPath}/resources/images/p001.jpg" ></a>
                             </li>
 
                             <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-1" href="${req.contextPath}/pro/view"><img src="./resources/images/p002.jpg" style="height:250px;width=20%" ></a>
+                                <a class="thumbnail" id="carousel-selector-1" href="${req.contextPath}/displayall"><img src="${req.contextPath}/resources/images/p002.jpg"  ></a>
                             </li>
 
                             <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-2" href="${req.contextPath}/pro/view"><img src="./resources/images/p003.jpg" style="height:250px;width=20%"></a>
+                                <a class="thumbnail" id="carousel-selector-2" href="${req.contextPath}/displayall"><img src="${req.contextPath}/resources/images/p003.jpg" ></a>
                             </li>
 							<li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-0" href="${req.contextPath}/pro/view"><img src="./resources/images/p004.jpg" style="height:250px;width=20%"></a>
+                                <a class="thumbnail" id="carousel-selector-0" href="${req.contextPath}/displayall"><img src="${req.contextPath}/resources/images/p004.jpg" ></a>
                             </li>
 
                             <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-1" href="${req.contextPath}/pro/view"><img src="./resources/images/p005.jpg" style="height:250px;width=20%"></a>
+                                <a class="thumbnail" id="carousel-selector-1" href="${req.contextPath}/displayall"><img src="${req.contextPath}/resources/images/p005.jpg" ></a>
                             </li>
 
                             <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-2" href="${req.contextPath}/pro/view"><img src="./resources/images/p006.jpg" style="height:250px;width=20%"></a>
+                                <a class="thumbnail" id="carousel-selector-2" href="${req.contextPath}/displayall"><img src="${req.contextPath}/resources/images/p006.jpg" ></a>
                             </li>
 
                         </ul>                 

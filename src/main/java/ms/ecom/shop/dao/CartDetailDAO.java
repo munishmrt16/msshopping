@@ -5,10 +5,11 @@ import java.util.List;
 import ms.ecom.shop.model.CartDetailModel;
 
 
-public interface CartDetailDAO {
-		public List<CartDetailModel> getAllCD();
-		void insertCD(CartDetailModel  p);
-		CartDetailModel getCD(int pid);
-		void updateCD(CartDetailModel p);
-		public void deleteCD(int pid);
+	public interface CartDetailDAO {
+	public List<CartDetailModel> getAll();
+	void insert(CartDetailModel  c);
+	CartDetailModel get(int cid);
+	void update(CartDetailModel c);
+	public void delete(int cid);
+
 }

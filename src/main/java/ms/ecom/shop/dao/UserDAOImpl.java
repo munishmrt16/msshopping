@@ -2,7 +2,9 @@ package ms.ecom.shop.dao;
 
 import java.util.List;
 
+import ms.ecom.shop.model.ProductModel;
 import ms.ecom.shop.model.UserModel;
+import ms.ecom.shop.model.VisModel;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,34 +15,17 @@ public class UserDAOImpl implements UserDAO {
 
 	@Autowired
 	private SessionFactory sessionFactory;
+
+	@Override
+	public void insertusr(UserModel v) {
+		sessionFactory.getCurrentSession().persist(v);
+		// TODO Auto-generated method stub
+	}
 	
 	@Override
-	public List<UserModel> getalluser() {
+	public UserModel get(int usrid) {
 		// TODO Auto-generated method stub
-		return sessionFactory.getCurrentSession().createQuery("from UserModel").list();
-	}
-
-	@Override
-	public void insertuser(UserModel u) {
-		sessionFactory.getCurrentSession().persist(u);
+		return sessionFactory.getCurrentSession().get(UserModel.class, usrid);
 
 	}
-
-	@Override
-	public UserModel getuser(int userid) {
-		return sessionFactory.getCurrentSession().get(UserModel.class, userid);
-	}
-
-	@Override
-	public void updateuser(UserModel u) {
-		// TODO Auto-generated method stub
-		sessionFactory.getCurrentSession().update(u);
-	}
-
-	@Override
-	public void deleteuser(int uid) {
-		// TODO Auto-generated method stub
-		sessionFactory.getCurrentSession().remove(getuser(uid));
-	}
-
 }

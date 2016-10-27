@@ -29,10 +29,13 @@
 					<td><form:input path="passwd" cssClass="form-control" /></td>
 				</tr>
 				<tr align="center">
-					<td align="center"><input type="submit" value="Save" /></td>
-					<td align="center"><input type="reset" value="Reset" /></td>
+					<td align="center"><input type="submit" value="Save" class="btn btn-sm btn-primary"/></td>
+					<td align="center"><input type="reset" value="Reset" class="btn btn-sm btn-primary"/></td>
 				</tr>
 			</table>
 		</form:form>
 	</div>
+</div>
+<div class="panel panel-default" id="footer" style="background:#ffab62;	width:100%;	height:20px;position:absolute;bottom:0;	left:0;">
+    <div class="panel-footer">@Copyright : Copyright © 2016 Shopping Inc. All rights reserved.</div>
 </div>

@@ -18,19 +18,27 @@ public class VisController
 	VisDAO  v;
 	
 	@RequestMapping(value = "/view", method = RequestMethod.GET)
-	public ModelAndView visProduct()
+	public ModelAndView visuser()
 	{
 		ModelAndView mv = new ModelAndView("regis");
 		mv.addObject("vis", new VisModel());
 		return mv;		
 	}
 	
+	@RequestMapping(value = "/regisview", method = RequestMethod.GET)
+	public ModelAndView reguser()
+	{
+		ModelAndView mv = new ModelAndView("regisview");
+		mv.addObject("vis", new VisModel());
+		return mv;		
+	}
+	
 	@RequestMapping("/save")
-	public String editUser(@ModelAttribute("vis") VisModel vis)
+	public String editvis(@ModelAttribute("vis") VisModel vis)
 	{
 		
 			v.insertvis(vis);
 			 return "redirect:/";
 	}
-	
+
 }

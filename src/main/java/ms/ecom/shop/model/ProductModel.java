@@ -16,8 +16,10 @@ public class ProductModel {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	int pid;
 	String pcat;
-		String pname;
+	@NotEmpty(message="Not empty")
+	String pname;
 	String purl;
+	@NotNull(message="Not Null")
 	int pprice;
 	@Transient
 	MultipartFile file;

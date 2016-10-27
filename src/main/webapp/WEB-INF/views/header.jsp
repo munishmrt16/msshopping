@@ -12,6 +12,8 @@
 <link rel="stylesheet" type="text/css" href="${css}/bootstrap-theme.css">
 <link rel="stylesheet" type="text/css" href="${css}/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="${css}/dropdn.css">
+
+
 <script src="${js}/angular.js"></script>
 <script src="${js}/angular.min.js"></script>
 <script src="${js}/bootstrap.js"></script>
@@ -19,9 +21,10 @@
 <script src="${js}/jquery.min.js"></script>
 <script src="${js}/npm.js"></script>
 
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
+<body background="${images}/backgroundimg.jpg">
 
 

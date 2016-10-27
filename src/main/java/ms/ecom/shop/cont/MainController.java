@@ -13,19 +13,40 @@ public class MainController {
 		ModelAndView mv = new ModelAndView("main");
 		return mv;		
 	}
-	
-	
-	@RequestMapping("/signup")
-	public ModelAndView dispsignup()
+	@RequestMapping("/displayall")
+	public ModelAndView dispallprod()
 	{
-		ModelAndView mv = new ModelAndView("signup");
+		ModelAndView mv = new ModelAndView("displayall");
 		return mv;		
 	}
+			
+	
+	@RequestMapping("/payment")
+	public ModelAndView dispay()
+	{
+		ModelAndView mv = new ModelAndView("payment");
+		return mv;		
+	}
+	@RequestMapping("/thanks")
+	public ModelAndView dispthanks()
+	{
+		ModelAndView mv = new ModelAndView("thanks");
+		return mv;		
+	}
+	
+	
 	
 	@RequestMapping("/signin")
 	public ModelAndView dispsignin()
 	{
 		ModelAndView mv = new ModelAndView("signin");
+		return mv;		
+	}
+	
+	@RequestMapping("/signup")
+	public ModelAndView dispsignin1()
+	{
+		ModelAndView mv = new ModelAndView("signup");
 		return mv;		
 	}
 	
@@ -49,7 +70,14 @@ public class MainController {
 		ModelAndView mv = new ModelAndView("about");
 		return mv;		
 	}
-	
 }
 
+/*
+@RequestMapping("/signup")
+public ModelAndView dispsignup()
+{
+	ModelAndView mv = new ModelAndView("signup");
+	return mv;		
+}
 
+*/
